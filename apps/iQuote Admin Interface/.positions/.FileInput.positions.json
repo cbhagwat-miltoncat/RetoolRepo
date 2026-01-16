@@ -1,0 +1,346 @@
+{
+  "categorySelect": {
+    "container": "partsCatalogContainer",
+    "subcontainer": "00030",
+    "row": 2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "customLaborCheckbox": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 14,
+    "height": 4.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "customerEmailInput": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 10.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "customerNameInput": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 8.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "deleteQuoteButton": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 15.6,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "diagnosticLaborCheckbox": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 13.2,
+    "col": 6,
+    "height": 4.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "editQuoteButton": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 15.6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "grandTotalStatistic": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 12.2,
+    "height": 0.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "installationLaborCheckbox": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 13.2,
+    "height": 4.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "laborOptionsText": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "row": 12.4,
+    "height": 1.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "laborStatistic": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 10.2,
+    "height": 0.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "newQuoteButton": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 14.4,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pageTitleText": {
+    "row": 0.4,
+    "height": 1.2,
+    "width": 12
+  },
+  "partsCatalogContainer": {
+    "row": 2,
+    "height": 68.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "partsCatalogHeaderText": {
+    "container": "partsCatalogContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 2.4,
+    "width": 12
+  },
+  "partsCatalogTable": {
+    "container": "partsCatalogContainer",
+    "subcontainer": "00030",
+    "row": 4,
+    "height": 16,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "partsSearchInput": {
+    "container": "partsCatalogContainer",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "quoteBuilderContainer": {
+    "row": 2,
+    "col": 4,
+    "height": 53.6,
+    "width": 4
+  },
+  "quoteBuilderHeaderText": {
+    "container": "quoteBuilderContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 2,
+    "width": 12
+  },
+  "quoteManagementContainer": {
+    "row": 2,
+    "col": 8,
+    "height": 34.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "quoteManagementHeaderText": {
+    "container": "quoteManagementContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "width": 12
+  },
+  "quotesListTable": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "height": 7,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "saveQuoteButton": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 14.4,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selectedItemsTable": {
+    "container": "quoteBuilderContainer",
+    "subcontainer": "00030",
+    "height": 8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "subtotalStatistic": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 8.2,
+    "height": 0.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "summaryText": {
+    "container": "quoteManagementContainer",
+    "subcontainer": "00030",
+    "row": 7.4,
+    "height": 1.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

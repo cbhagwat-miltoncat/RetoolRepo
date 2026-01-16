@@ -1,0 +1,314 @@
+{
+  "bulkSubmit": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 2,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonCancelChanges": {
+    "rowGroup": "footer",
+    "subcontainer": "modalReviewChanges",
+    "height": 1,
+    "width": 4
+  },
+  "buttonRefreshData": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 3,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonRevertChanges": {
+    "rowGroup": "footer",
+    "subcontainer": "modalReviewChanges",
+    "col": 4,
+    "height": 1,
+    "width": 4
+  },
+  "buttonReviewChanges": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonRunTests": {
+    "row": 62.2,
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonSaveRate": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "row": 2.2,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonSubmitChanges": {
+    "rowGroup": "footer",
+    "subcontainer": "modalReviewChanges",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "columnBulkEditSelect": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container2": {
+    "row": 2,
+    "height": -1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container3": {
+    "row": 2,
+    "col": 6,
+    "height": 0.4,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "container2",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 0.6,
+    "width": 12
+  },
+  "dataContainer": {
+    "row": 7.8,
+    "height": 54,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataContainerTitle": {
+    "container": "dataContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "width": 12
+  },
+  "demoButton": {
+    "container": "demoContainer",
+    "subcontainer": "00030",
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "demoContainer": {
+    "row": 63.6,
+    "height": 64.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "demoContainerTitle": {
+    "container": "demoContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 12
+  },
+  "demoTable": {
+    "container": "demoContainer",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "height": 10,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "editableBulkPriceText2": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": -1.4,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "numberInputRate": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "partDescriptionInput": {
+    "type": "stack",
+    "container": "dataContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 5,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 250,
+        "height": 56
+      }
+    }
+  },
+  "pricesheetTable": {
+    "container": "dataContainer",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 10,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tableChangesSummary": {
+    "subcontainer": "modalReviewChanges",
+    "row": 0.6,
+    "height": 4.8,
+    "width": 12
+  },
+  "tableSearch": {
+    "type": "stack",
+    "container": "dataContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 179,
+        "height": 64
+      }
+    }
+  },
+  "textChangesSummary": {
+    "subcontainer": "modalReviewChanges",
+    "height": 1.2,
+    "width": 12
+  },
+  "titleText": {
+    "row": 0.4,
+    "height": 1.2,
+    "width": 12
+  }
+}

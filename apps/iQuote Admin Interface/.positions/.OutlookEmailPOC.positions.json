@@ -1,0 +1,395 @@
+{
+  "aiSummaryTeamsContainer": {
+    "row": 7,
+    "col": 8,
+    "height": 19.4,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "aiSummaryTeamsTitle": {
+    "container": "aiSummaryTeamsContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "width": 12
+  },
+  "aiSummaryTextArea": {
+    "container": "aiSummaryTeamsContainer",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "apiKeyInput": {
+    "subcontainer": "settingsModal",
+    "height": 3,
+    "width": 12
+  },
+  "appTitleText": {
+    "row": 0.4,
+    "height": 4.8,
+    "width": 8
+  },
+  "cancelSettingsButton": {
+    "rowGroup": "footer",
+    "subcontainer": "settingsModal",
+    "height": 1,
+    "width": 4
+  },
+  "closeSettingsButton": {
+    "rowGroup": "header",
+    "subcontainer": "settingsModal",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "emailBodyTextArea": {
+    "container": "emailContentContainer",
+    "subcontainer": "00030",
+    "row": 3,
+    "height": 9,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailContentContainer": {
+    "row": 7,
+    "col": 4,
+    "height": 43.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailContentTitle": {
+    "container": "emailContentContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 2,
+    "width": 12
+  },
+  "emailDateText": {
+    "container": "emailContentContainer",
+    "subcontainer": "00030",
+    "row": 2,
+    "height": 2.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailFromText": {
+    "container": "emailContentContainer",
+    "subcontainer": "00030",
+    "row": 1,
+    "height": 3.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailInboxContainer": {
+    "row": 7.8,
+    "height": 9,
+    "width": 4
+  },
+  "emailInboxTitle": {
+    "container": "emailInboxContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 2,
+    "width": 12
+  },
+  "emailSearchInput": {
+    "container": "emailInboxContainer",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailServerInput": {
+    "subcontainer": "settingsModal",
+    "row": 1.2,
+    "height": 3,
+    "width": 12
+  },
+  "emailSubjectText": {
+    "container": "emailContentContainer",
+    "subcontainer": "00030",
+    "height": 3.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "emailsTable": {
+    "container": "emailInboxContainer",
+    "subcontainer": "00030",
+    "row": 2,
+    "height": 10,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "generateSummaryButton": {
+    "container": "aiSummaryTeamsContainer",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pendingEmailsContainer": {
+    "row": 2,
+    "col": 8,
+    "height": 4.6,
+    "width": 4
+  },
+  "pendingEmailsIcon": {
+    "container": "pendingEmailsContainer",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pendingEmailsStatistic": {
+    "container": "pendingEmailsContainer",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "postToTeamsButton": {
+    "container": "aiSummaryTeamsContainer",
+    "subcontainer": "00030",
+    "row": 5.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "processedEmailsContainer": {
+    "row": 2,
+    "col": 4,
+    "height": 4.6,
+    "width": 4
+  },
+  "processedEmailsIcon": {
+    "container": "processedEmailsContainer",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "processedEmailsStatistic": {
+    "container": "processedEmailsContainer",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "refreshButton": {
+    "row": 1,
+    "col": 8,
+    "height": 1,
+    "width": 2
+  },
+  "refreshIntervalInput": {
+    "subcontainer": "settingsModal",
+    "row": 1.8,
+    "height": 3,
+    "width": 12
+  },
+  "saveSettingsButton": {
+    "rowGroup": "footer",
+    "subcontainer": "settingsModal",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "settingsButton": {
+    "row": 1,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "settingsModalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "settingsModal",
+    "height": 2.4,
+    "width": 10
+  },
+  "statusText": {
+    "container": "aiSummaryTeamsContainer",
+    "subcontainer": "00030",
+    "row": 7.2,
+    "height": 2.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "teamsChannelInput": {
+    "container": "aiSummaryTeamsContainer",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "teamsWebhookInput": {
+    "subcontainer": "settingsModal",
+    "row": 0.6,
+    "height": 3,
+    "width": 12
+  },
+  "totalEmailsContainer": {
+    "row": 2,
+    "height": 5.4,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "totalEmailsIcon": {
+    "container": "totalEmailsContainer",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "totalEmailsStatistic": {
+    "container": "totalEmailsContainer",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": -0.4,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

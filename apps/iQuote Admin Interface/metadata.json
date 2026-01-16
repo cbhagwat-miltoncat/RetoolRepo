@@ -1,0 +1,27 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "9c0bb306-f255-11f0-bbcb-d7cb3541c307",
+  "appTemplate": {
+    "appThemeId": 179368,
+    "pageCodeFolders": {
+      "object": {
+        "FileInput": {
+          "array": []
+        },
+        "OutlookEmailPOC": {
+          "array": []
+        },
+        "Pricesheet": {
+          "array": []
+        },
+        "iQuote": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "Pricesheet",
+    "appThemeName": "MiltonCat",
+    "version": "3.327.0"
+  }
+}
