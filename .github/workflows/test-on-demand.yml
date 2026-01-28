@@ -1,0 +1,51 @@
+name: Run Tests Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_type:
+        description: 'Type of test to run'
+        required: true
+        type: choice
+        options:
+          - code-quality
+          - reminder
+        default: 'reminder'
+
+jobs:
+  manual-test:
+    name: Manual Test Reminder
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Run Code Quality Checks
+        if: github.event.inputs.test_type == 'code-quality'
+        run: |
+          echo "Running code quality checks..."
+          find lib -name "*.js" -type f 2>/dev/null | while read file; do
+            echo "Checking $file"
+            node -c "$file" || exit 1
+          done || echo "No lib directory found"
+      
+      - name: Show Test Reminder
+        run: |
+          echo "=========================================="
+          echo "🧪 MANUAL TEST REMINDER"
+          echo "=========================================="
+          echo ""
+          echo "Please run these tests in your Retool app:"
+          echo ""
+          echo "1. Comprehensive Tests"
+          echo "   - Navigate to your Pricesheet page"
+          echo "   - Click 'Run Tests' button"
+          echo "   - Verify all tests pass"
+          echo ""
+          echo "2. Database Integration Tests"
+          echo "   - Click 'Run Database Tests' button"
+          echo "   - Check console for results"
+          echo "   - Verify no critical failures"
+          echo ""
+          echo "=========================================="
