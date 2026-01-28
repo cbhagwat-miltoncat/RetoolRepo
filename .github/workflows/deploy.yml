@@ -1,0 +1,55 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-notification:
+    name: Deployment Notification
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Get commit info
+        id: commit
+        run: |
+          echo "message=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
+          echo "author=$(git log -1 --pretty=%an)" >> $GITHUB_OUTPUT
+          echo "sha=$(git log -1 --pretty=%h)" >> $GITHUB_OUTPUT
+      
+      - name: Create deployment comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const message = '${{ steps.commit.outputs.message }}';
+            const author = '${{ steps.commit.outputs.author }}';
+            const sha = '${{ steps.commit.outputs.sha }}';
+            
+            const body = `## 🚀 Deployed to Production
+            
+            **Commit:** ${sha}
+            **Author:** ${author}
+            **Message:** ${message}
+            
+            ### 📝 Manual Deployment Steps
+            
+            To complete the deployment to Retool:
+            
+            1. Go to your Retool app
+            2. Pull the latest changes from Git (if using Retool Git Sync)
+            3. Or manually update your app with the latest changes
+            4. Test the deployment in production
+            
+            **Deployment Time:** ${new Date().toISOString()}`;
+            
+            github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+              body: body
+            });
